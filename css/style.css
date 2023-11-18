@@ -1,0 +1,203 @@
+.color-text{
+    color: blue;
+}
+#color-text-id{
+    color: red;
+}
+
+/* Псевдокласи і псевдоелементи */
+
+.main_link{
+    color: red;
+    text-decoration: none;/*Підкреслення */
+}
+
+.main_link:hover{
+    color:blue;
+    text-decoration: overline;
+    text-decoration-color:red;
+    cursor: pointer;
+}
+
+.main_link:active{
+    text-decoration: line-through;
+}
+
+/*Зберігає колір на який сайт ти зайшов */
+/* .main_link:visited{ 
+    color:yellow;
+} */
+.enter_name{
+    color:blue;
+}
+.enter_name:focus{
+    color:red;
+}
+p.text:not(:empty){
+    color:yellow;
+}
+#car_id::first-letter{
+    color:red;
+}
+#car_id_1::first-line{
+    color:brown;
+}
+#car_id::after{
+    content: "1";
+}
+#car_id::before{
+    content: "4";
+}
+
+/* Робота з фоновими картинками */
+
+#first{
+    background-color: blue;
+    background-image: url('https://images.ctfassets.net/4ivszygz9914/06982cf7-5b77-4dc7-9fb9-e6189a105195/62d6722c9db41559c7bb7593bfd89a16/8b2b02a4-e879-4a49-b5af-ac33a2070bb7.jpg?fm=webp');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#second{
+    height: 2000px;
+}
+
+/* Стилі для тексту */
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@700&display=swap');
+
+.main-text{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-transform: lowercase;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+/* Стилі для блоків */
+*{
+    margin: 0;
+    padding: 0;
+}
+#block{
+    background: red;
+    height: 200px;
+    width: 300px;
+    border:7px dotted yellow;
+    border-bottom: 0;
+    border-top-color:blue;
+    border-left-style: solid;
+
+    border-radius: 15px;
+    opacity: 0.7;
+    margin:40px;
+    padding: 40px;
+    display: block;
+}
+
+/* Позиціановані блоки */
+
+.block_one{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: red;
+}
+
+#one{
+    float: left;
+}
+#two{
+    float: left;
+    background:blue;
+}
+
+#header,#footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 4px solid silver;
+    background: blue;
+    line-height: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#main{
+    width: 50%;
+    margin-left: 10%;
+    background:red;
+    border:1px solid silver;
+    padding: 20px 2.5%;
+    float: left;
+    z-index: 1;
+    position: relative;
+}
+
+#aside{
+    width: 20%;
+    padding: 20px 2.5%;
+    margin-left: 5%;
+    background: red;
+    border:1px solid silver;
+    float: left;
+    position: relative;
+    top:-10px;
+    left:-200px;
+    z-index: 0;
+}
+#footer{
+    margin-bottom: 0;
+    margin-top: 50px;
+    border-bottom: 0;
+    border-bottom: 4px solid silver;
+}
+#block_main{
+    background: red;
+    color:blue;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    /* position: absolute; */
+    position: fixed;
+}
+#main_height{
+    height: 2000px;
+}
+
+/* Робота зі списками */
+
+#nav{
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#nav li{
+    display: inline;
+    background: blue;
+    border: 1px solid silver;
+    padding: 20px;
+    cursor: pointer;
+}
+#nav li:hover{
+    color:red;
+    background: green;
+    border-radius: 5px;
+    border-color:greenyellow ;
+}
+#nav li:not(:last-of-type){
+    margin-right: 20px;
+}
+

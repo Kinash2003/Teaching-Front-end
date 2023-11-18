@@ -1,0 +1,65 @@
+{
+    "LastName": "Kinash",
+    "FirstName": "Roman",
+    "MiddleName": "Igorovich",
+    "Contact": {
+        "Mobile": "067-36-98-141",
+        "Телефон": "kinash0226@gmail.com",
+        "LinkedIn": "www.linkedin.com/in/roman-kinash-a37397218",
+        "Telegram": "https://t.me/kinashroman"
+    },
+
+    "Skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bug Reports",
+      "Test Cases",
+      "Test Plans",
+      "Checklists",
+      "Jira",
+      "Scrum methodology",
+      "Agile methodology",
+      "Functional Testing",
+      "Regression Testing",
+      "Automated Testing",
+      "Unit Testing",
+      "Localization testing",
+      "Usability Testing",
+      "Figma",
+      "Postman",
+      "GitHub",
+      "SQL"
+    ],
+
+    "Languages": {
+        "Ukrainian": "native",
+        "English": "intermediate"
+    },
+
+    "Education": {
+        "LvivPolytechnicNationalUniversity": "Bachelor, Information systems and technologies (2020–2024)",
+        "QATestLab certificate": "The Fundamentals of Software Testing QATestLab Training Center",
+        "SoftServe certificate": "TAQC DEVELOPMENT CRASH COURSE SoftServe"
+    },
+
+    "Profile": [ "Hello! My name is Roman.",
+    "I have successfully completed software",
+    "courses at QATestLab and SoftServe. My",
+    "experience is currently limited to courses",
+    "and self-study. I have a desire to work and",
+    "develop as a software tester to become",
+    "a successful professional."
+    ],
+
+    "Experience": [ "- Proficiency in websites and games testing, ensuring high-quality products.",
+    "- Experience in functional, localization, usability and regression testing.",
+    "- Well-versed in mobile testing practices for iOS and Android platforms.",
+    "- Proficiency in creating Bug Reports, Test Cases, Test Plans and Checklists.",
+    "- Experience with tools (Jira, MantisBT, Trello,TestRail).",
+    "- Proficiency in bug life cycle management and various testing methodologies.",
+    "- Ability to effectively implement testing strategies based on project requirements.",
+    "- Test automation using Postman.",
+    "- Experience with SQL for database testing."
+    ]
+}
